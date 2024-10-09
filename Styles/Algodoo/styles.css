@@ -4,7 +4,6 @@
 
 #main {
     display: flex;
-    padding: 0 10px 10px;
     align-items: flex-end;
     justify-content: center;
     text-align: center;
