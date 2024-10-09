@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: Gotham;
-    src: url(Fonts/Gotham-Book.otf);
+    src: url(https://kgamex.github.io/Fonts/Gotham-Book.otf);
 }
 
 @font-face {
     font-family: Gotham;
-    src: url(Fonts/Gotham-Bold.otf);
+    src: url(https://kgamex.github.io/Fonts/Gotham-Bold.otf);
     font-weight: bold;
 }
 
