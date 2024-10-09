@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     height: 620px;
-    background-image: url(../Images/KGameX_Hello.png);
+    background-image: url(https://kgamex.github.io/Images/KGameX_Hello.png);
     background-position: top right;
     background-repeat: no-repeat;
 }
