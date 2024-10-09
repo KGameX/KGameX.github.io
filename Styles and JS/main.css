@@ -1,0 +1,143 @@
+/*Base style for every page*/
+
+@font-face {
+    font-family: Gotham;
+    src: url(Fonts/Gotham-Book.otf);
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url(Fonts/Gotham-Bold.otf);
+    font-weight: bold;
+}
+
+body {
+    font-family: Gotham;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    height: 70px;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 80%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0 10% 0 10%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.container .navbar {
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.container .navbar ul li {
+    padding: 10px;
+    margin: 0 0 0 20px;
+}
+
+.navbar a {
+    height: 60px;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    opacity: 0.5;
+}
+
+#logo {
+    height: 60px;
+    width: auto;
+    align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 5px 10px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 70px;
+}
+
+h3 {
+    font-size: 60px;
+}
+
+h4 {
+    font-size: 50px;
+}
+
+h5 {
+    font-size: 40px;
+}
+
+h6 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section {
+    background-color: white;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+span {
+    color: black;
+    display: inline-block;
+    background-color: #f2f2f2;
+    margin: 0 2.5px;
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+span:hover {
+    color: white;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    height: 70px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    background-color: #333333;
+}

@@ -1,0 +1,48 @@
+.navbar {
+    background-color: #00115c;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    height: 620px;
+    background-image: url(../Images/KGameX_Hello.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+#social, #activities {
+    text-align: center;
+}
+
+.algodoo:hover {
+    background-color: #e46c0a;
+}
+
+.beat-saber:hover {
+    background-color: #288ed2;
+}
+
+.roblox:hover {
+    background-color: #393b3d;
+}
+
+.youtube:hover {
+    background-color: red;
+}
+
+.facebook:hover {
+    background-color: #4267b2;
+}
+
+.instagram:hover {
+    background-color: #ff007f;
+}
+
+.twitter:hover {
+    background-color: black;
+}
+
+.discord:hover {
+    background-color: #5865f2;
+}
