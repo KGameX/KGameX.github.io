@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: Gotham;
-    src: url(https://kgamex.github.io/Fonts/Gotham-Book.otf);
+    src: url(../Fonts/Gotham-Book.otf);
 }
 
 @font-face {
     font-family: Gotham;
-    src: url(https://kgamex.github.io/Fonts/Gotham-Bold.otf);
+    src: url(../Fonts/Gotham-Bold.otf);
     font-weight: bold;
 }
 
@@ -52,7 +52,7 @@ header {
 }
 
 .navbar a {
-    height: 60px;
+    height: 55px;
     color: white;
     font-weight: bold;
     transition: all 0.3s ease-in-out;
@@ -63,7 +63,7 @@ header {
 }
 
 #logo {
-    height: 60px;
+    height: 55px;
     width: auto;
     align-items: center;
 }
@@ -105,11 +105,16 @@ a {
     text-decoration: none;
 }
 
-.section {
+section {
     background-color: white;
     margin: 10px;
     padding: 5px 10px;
     border-radius: 5px;
+}
+
+.sample {
+    width: fit-content;
+    margin: 10px auto;
 }
 
 span {
@@ -117,10 +122,9 @@ span {
     display: inline-block;
     background-color: #f2f2f2;
     margin: 0 2.5px;
-    padding: 5px;
-    width: 200px;
+    padding: 5px 10px;
+    width: fit-content;
     border-radius: 5px;
-    text-align: center;
     font-size: 20px;
     font-weight: bold;
     transition: all 0.3s ease-in-out;

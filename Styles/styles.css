@@ -1,18 +1,66 @@
 .navbar {
-    background-color: #00115c;
+    background-color: #00115C;
+}
+
+header {
+    height: 30px;
 }
 
 #main {
+    color: white;
+    margin: 0;
     display: flex;
     align-items: center;
-    height: 620px;
-    background-image: url(https://kgamex.github.io/Images/KGameX_Hello.png);
-    background-position: top right;
+    height: 650px;
+    box-sizing: border-box;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-image: url(../Images/KGameX_Hello.svg), url(../Images/KGameX_Gradient.jpg);
+    background-size: 290px auto, 100% 100%;
+    background-position: bottom -10px right 15%, center;
     background-repeat: no-repeat;
 }
 
 #social, #activities {
     text-align: center;
+}
+
+.text-image {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-image:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.text-image-text {
+    padding: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-image-image {
+    border-radius: 5px;
+    width: 60%;
+    height: 450px
+}
+
+#image-algodoo {
+    background-image: url("/Images/KGameX_Desktop.svg"), linear-gradient(135deg, #40a18a, #56b00c, #c7bb0e);
+    background-size: auto 450px, auto;
+    background-position: bottom -5px center, center;
+    background-repeat: no-repeat;
+}
+
+#image-beat-saber {
+    background-image: url("../Images/KGameX_Beat_Saber.svg"), linear-gradient(135deg, #d91041, #b22ba8, #5475da);
+    background-size: auto 450px, auto;
+    background-position: bottom -5px center, center;
+    background-repeat: no-repeat;
 }
 
 .algodoo:hover {
