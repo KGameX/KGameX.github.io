@@ -50,7 +50,7 @@ header {
 }
 
 #image-algodoo {
-    background-image: url("/Images/KGameX_Desktop.svg"), linear-gradient(135deg, #40a18a, #56b00c, #c7bb0e);
+    background-image: url("../Images/KGameX_Desktop.svg"), linear-gradient(135deg, #40a18a, #56b00c, #c7bb0e);
     background-size: auto 450px, auto;
     background-position: bottom -5px center, center;
     background-repeat: no-repeat;
