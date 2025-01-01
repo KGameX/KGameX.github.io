@@ -8,21 +8,22 @@
     justify-content: center;
     text-align: center;
     height: 535px;
-    background-image: url(https://kgamex.github.io/Images/Algodoo/KGameX_Desktop.png);
+    background-image: url(/Images/Algodoo/KGameX_Desktop.svg);
     background-position: top -25px center;
     background-repeat: no-repeat;
-    background-size: auto 400px;
+    background-size: auto 390px;
 }
 
 .grid {
     margin: 10px 10px 0;
     display: grid;
+    justify-content: center;
     width: auto;
-    grid-template-columns: repeat(4, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, minmax(350px, 1fr));
     gap: 10px;
 }
 
-.series, .games, .unmissables, .ranking {
+.series, .games, .unmissables {
     color: black;
     height: 200px;
     border-radius: 5px;
@@ -35,19 +36,92 @@
 }
 
 .series {
-    background-image: url(../../Images/Algodoo/Series.svg), linear-gradient(135deg, #40a18a, #56b00c, #c7bb0e);
+    background-image: url(/Images/Algodoo/Series.svg), linear-gradient(135deg, #40a18a, #56b00c, #c7bb0e);
 }
 
 .games {
-    background-image: url(../../Images/Algodoo/Games.svg), linear-gradient(135deg, #c7bb0e, #c43b3b, #b530b8);
+    background-image: url(/Images/Algodoo/Games.svg), linear-gradient(135deg, #c7bb0e, #c43b3b, #b530b8);
 }
 
 .unmissables {
-    background-image: url(../../Images/Algodoo/Unmissables.svg), linear-gradient(135deg, #b530b8, #3c7dc7, #1c8a5f);
+    background-image: url(/Images/Algodoo/Unmissables.svg), linear-gradient(135deg, #b530b8, #3c7dc7, #1c8a5f);
 }
 
-.ranking {
-    background-image: url(../../Images/Algodoo/Ranking.svg), linear-gradient(135deg, #1c8a5f, #40a18a, #56b00c);
+#main {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+
+main {
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.scene-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 10px;
+}
+
+.scene-card {
+    width: 220px;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    text-wrap: wrap;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+}
+
+.scene-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: -4px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.scene-card:hover {
+    transform: translateY(-5px);
+}
+
+.scene-details {
+    width: 80%;
+    height: 80%;
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 102;
+    transition: all 0.3s ease-in-out;
+}
+
+.opacity-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    background-color: #0000007F;
+    z-index: 101;
+    transition: all 0.3s ease-in-out;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-50px);
 }
 
 .algodoo:hover {

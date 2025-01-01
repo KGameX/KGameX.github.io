@@ -5,16 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KGΛMΞX</title>
-    <link rel="icon" type="image/ico" href="../Images/KGameX.svg">
-    <link rel="stylesheet" href="../Styles/main.css">
-    <link rel="stylesheet" href="../Styles/Algodoo/styles.css">
+    <link rel="icon" type="image/ico" href="/Images/KGameX.svg">
+    <link rel="stylesheet" href="/Styles/main.css">
+    <link rel="stylesheet" href="/Styles/Algodoo/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/Misc/Algodoo/index.js"></script>
 </head>
 
 <body>
     <header>
         <div class="container">
             <div class="navbar">
-                <a href="../"><img src="../Images/KGameX.svg" id="logo"></a>
+                <a href="/"><img src="/Images/KGameX.svg" id="logo"></a>
                 <nav>
                     <ul>
                         <li><a href="">Algodoo</a></li>
@@ -55,13 +57,25 @@
                 <p>Toutes les scènes à voir absolument !</p>
             </div>
         </a>
-        
-        <a href="Ranking/">
-            <div class="ranking">
-                <h6>Classement</h6>
-                <p>Un classement des scènes les plus téléchargées.</p>
-            </div>
-        </a>
+    </div>
+
+    <section class="sample">
+        <h5>Les scènes</h5>
+    </section>
+
+    <div class="scene-grid" id="sceneGrid"></div>
+
+    <div class="scene-details-section" id="sceneDetailsSection"></div>
+
+    <div class="opacity-box hidden">
+        <script>
+            $(document).ready(function(){
+                $(".opacity-box").click(function(){
+                    $(this).removeClass("visible").addClass("hidden");
+                    $(".scene-details").removeClass("visible").addClass("hidden");
+                })
+            })
+        </script>
     </div>
 
     <footer>

@@ -15,7 +15,7 @@ header {
     box-sizing: border-box;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    background-image: url(../Images/KGameX_Hello.svg), url(../Images/KGameX_Gradient.jpg);
+    background-image: url(/Images/KGameX_Hello.svg), url(/Images/KGameX_Gradient.jpg);
     background-size: 290px auto, 100% 100%;
     background-position: bottom -10px right 15%, center;
     background-repeat: no-repeat;
@@ -50,14 +50,14 @@ header {
 }
 
 #image-algodoo {
-    background-image: url("../Images/KGameX_Desktop.svg"), linear-gradient(135deg, #40a18a, #56b00c, #c7bb0e);
+    background-image: url("/Images/KGameX_Desktop.svg"), linear-gradient(135deg, #40a18a, #56b00c, #c7bb0e);
     background-size: auto 450px, auto;
     background-position: bottom -5px center, center;
     background-repeat: no-repeat;
 }
 
 #image-beat-saber {
-    background-image: url("../Images/KGameX_Beat_Saber.svg"), linear-gradient(135deg, #d91041, #b22ba8, #5475da);
+    background-image: url("/Images/KGameX_Beat_Saber.svg"), linear-gradient(135deg, #d91041, #b22ba8, #5475da);
     background-size: auto 450px, auto;
     background-position: bottom -5px center, center;
     background-repeat: no-repeat;
