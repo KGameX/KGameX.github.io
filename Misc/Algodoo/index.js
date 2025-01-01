@@ -44,7 +44,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     sceneDetailsSection.innerHTML = scenes.map(scene => `
         <div class="scene-details hidden" id="${scene.id}">
-            <p>${scene.title}</p>
+            <div>
+                <img src="${scene.image}" alt="${scene.title}" height="250">
+                <h6>${scene.title}</h6>
+            </div>
         </div>
     `).join('');
 
