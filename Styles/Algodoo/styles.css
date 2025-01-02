@@ -96,10 +96,23 @@ main {
     position: fixed;
     top: 10%;
     left: 10%;
-    background-color: white;
+    padding: 10px;
+    background-color: #f2f2f2;
     border-radius: 5px;
     z-index: 102;
     transition: all 0.3s ease-in-out;
+    overflow-y: auto;
+}
+
+.scene-details img {
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scene-details::-webkit-scrollbar-track {
+    border-radius: 5px;
 }
 
 .opacity-box {
