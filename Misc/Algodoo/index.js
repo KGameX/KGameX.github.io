@@ -1,5 +1,5 @@
 const scenes = [
-    {id: 246719, title: "Automatic Bowling Machine", image: "/Images/Algodoo/Scenes/246719_.png"},
+    {id: 246719, title: "Automatic Bowling Machine", desc: "Text text text"},
 ]
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     sceneGrid.innerHTML = scenes.map(scene => `
         <div class="scene-card" data-id="${scene.id}"> 
-            <img src="http://www.algodoo.com/algobox/upload/image/${scene.id}_.png" alt="${scene.title}">
+            <img src="/Images/Algodoo/Scenes/${scene.id}_.png" alt="${scene.title}">
             <p><b>${scene.title}</b></p>
         </div>
     `).join('');
@@ -16,9 +16,12 @@ document.addEventListener('DOMContentLoaded', function () {
     sceneDetailsSection.innerHTML = scenes.map(scene => `
         <div class="scene-details hidden" id="${scene.id}">
             <div>
-                <img src="http://www.algodoo.com/algobox/upload/image/${scene.id}_.png" alt="${scene.title}" width="300">
+                <img src="/Images/Algodoo/Scenes/${scene.id}_.png" alt="${scene.title}" width="300">
                 <section class="sample">
                     <h6>${scene.title}</h6>
+                </section>
+                <section>
+                    ${scene.desc}
                 </section>
             </div>
         </div>
