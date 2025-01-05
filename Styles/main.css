@@ -7,7 +7,20 @@
 
 @font-face {
     font-family: Gotham;
+    src: url(../Fonts/Gotham-BookItalic.otf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Gotham;
     src: url(../Fonts/Gotham-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url(../Fonts/Gotham-BoldItalic.otf);
+    font-style: italic;
     font-weight: bold;
 }
 
@@ -122,7 +135,7 @@ a {
 section {
     background-color: white;
     margin: 10px;
-    padding: 5px 10px;
+    padding: 5px;
     border-radius: 5px;
 }
 

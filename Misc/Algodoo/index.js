@@ -1,7 +1,3 @@
-const scenes = [
-    {id: 246719, title: "Automatic Bowling Machine", desc: "Text text text"},
-]
-
 document.addEventListener('DOMContentLoaded', function () {
     const sceneGrid = document.getElementById('sceneGrid');
     const sceneDetailsSection = document.getElementById('sceneDetailsSection');
@@ -21,19 +17,20 @@ document.addEventListener('DOMContentLoaded', function () {
                     <h6>${scene.title}</h6>
                 </section>
                 <section>
-                    ${scene.desc}
+                    <p style="text-align: center">${scene.desc}</p>
+                    <p style="text-align: center"><a href="http://www.algodoo.com/algobox/details/${scene.id}" target="_blank"><span class="algodoo">Voir sur Algodoo</span></a></p>
                 </section>
             </div>
         </div>
     `).join('');
 
-    $(document).on('click', '.scene-card', function () {
+    $(document).on('click', '.scene-card', function() {
         const sceneId = $(this).data('id');
         $(`#${sceneId}`).removeClass('hidden').addClass('visible');
         $(".opacity-box").removeClass('hidden').addClass('visible');
     });
 
-    $(".opacity-box").click(function () {
+    $(".opacity-box").click(function() {
         $(this).removeClass("visible").addClass("hidden");
         $(".scene-details").removeClass("visible").addClass("hidden");
     });
