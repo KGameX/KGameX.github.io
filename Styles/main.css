@@ -94,6 +94,12 @@ header {
     align-items: center;
 }
 
+#icon {
+    height: 30px;
+    width: auto;
+    align-items: center;
+}
+
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 5px 10px;
@@ -140,6 +146,10 @@ section {
 }
 
 .sample {
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
     width: fit-content;
     margin: 10px auto;
 }
@@ -148,7 +158,6 @@ span {
     color: black;
     display: inline-block;
     background-color: #f2f2f2;
-    margin: 0 2.5px;
     padding: 5px 10px;
     width: fit-content;
     border-radius: 5px;

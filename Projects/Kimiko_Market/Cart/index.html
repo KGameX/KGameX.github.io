@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier - Kimiko Market</title>
+    <link rel="stylesheet" href="/Styles/Projects/Kimiko_Market/header_footer.css">
+    <link rel="stylesheet" href="/Styles/Projects/Kimiko_Market/Cart/styles.css">
+    <link rel="icon" href="/Images/Projects/Kimiko_Market/Icon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <ul class="list">
+                <li class="elem-list"><a href=".." class="links"><img src="/Images/Projects/Kimiko_Market/Kimiko_Market.svg" alt="Logo Kimiko" id="icon"></a></li>
+                <li class="elem-list"><a href=".." class="links">Accueil</a></li>
+                <li class="elem-list"><a href="../Shop" class="links">Boutique</a></li>
+                <li class="elem-list"><a href="" class="links active-page">Panier</a></li>
+                <li class="elem-list"><a href="../About" class="links">A propos</a></li>
+                <li class="elem-list"><a href="/Projects" class="links"><img src="/Images/Projects/Kimiko_Market/KGameX.svg" alt="Logo KGameX" id="icon"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="baniere">
+            <div class="texte-baniere">
+                <h1>Votre panier</h1>
+            </div>
+        </div>
+
+        <section id="panier">
+            <h2>Votre panier</h2>
+            <div class="panier-container">
+                <table class="produits">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Produit</th>
+                            <th>prix unitaire</th>
+                            <th>Quantité</th>
+                            <th>Prix total</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="food-panier">
+                            <td><img src="/Images/Projects/Kimiko_Market/Shop/mochis.jpg" alt="Mochis"
+                                    class="img_produit"></td>
+                            <td>
+                                <h4>Mochis</h4>
+                            </td>
+                            <td class="prix">3,50</td>
+                            <td> <input type="number" min="1" max="10" value="1" step="1" class="quantité"
+                                    name="quantité"> </td>
+                            <td class="prix">3,50</td>
+                            <td><button class="supprimer"></button></td>
+                        </tr>
+
+                        <tr class="food-panier">
+                            <td><img src="/Images/Projects/Kimiko_Market/Shop/wasabi.jpg" alt="Wasabi"
+                                    class="img_produit"></td>
+                            <td>
+                                <h4>Wasabi</h4>
+                            </td>
+                            <td class="prix">12</td>
+                            <td> <input type="number" min="1" max="10" value="1" step="1" class="quantité"
+                                    name="quantité"> </td>
+                            <td class="prix">12</td>
+                            <td><button class="supprimer"></button></td>
+                        </tr>
+
+                        <tr class="food-panier">
+                            <td><img src="/Images/Projects/Kimiko_Market/Shop/sauce_soja.jpg" alt="Sauce soja"
+                                    class="img_produit"></td>
+                            <td>
+                                <h4>Sauce soja</h4>
+                            </td>
+                            <td class="prix">10,50</td>
+                            <td> <input type="number" min="1" max="10" value="1" step="1" class="quantité"
+                                    name="quantité"> </td>
+                            <td class="prix">10,50</td>
+                            <td><button class="supprimer"></button></td>
+                        </tr>
+
+                        <tr class="food-panier">
+                            <td><img src="/Images/Projects/Kimiko_Market/Shop/riz_gluant.jpg" alt="Riz gluant"
+                                    class="img_produit"></td>
+                            <td>
+                                <h4>Riz gluant</h4>
+                            </td>
+                            <td class="prix">20</td>
+                            <td> <input type="number" min="1" max="10" value="1" step="1" class="quantité"
+                                    name="quantité"> </td>
+                            <td class="prix">20</td>
+                            <td><button class="supprimer"></button></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <div class="summary">
+                    <div id="sous-total" class="container-prix">
+                        <p>Sous-total</p>
+                        <p class="prix">46,00</p>
+                    </div>
+                    <div id="TVA" class="container-prix">
+                        <p>TVA</p>
+                        <p class="prix">4,60</p>
+                    </div>
+                    <div id="frais_livraison" class="container-prix">
+                        <p>Frais de livraison</p>
+                        <p class="prix">2,50</p>
+                    </div>
+                    <div class="separateur"></div>
+                    <div id="total" class="container-prix">
+                        <p>Total</p>
+                        <p class="prix">48,50</p>
+                    </div>
+                    <div class="separateur"></div>
+                    <button id="payer" class="valider">Procéder au paiement</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="recommandation">
+            <h3>Recommandations</h3>
+            <div class="recommandations">
+                <button class="scroll-button scroll-left" id="scrollLeft">&lt;</button>
+                <button class="scroll-button scroll-right" id="scrollRight">&gt;</button>
+                <div class="recommandation-container">
+                    <div class="food-card" id="dango_mochi">
+                        <img src="/Images/Projects/Kimiko_Market/Shop/sauce_yakitori.jpg" alt="Sauce Yakitori"
+                            class="img_produit">
+                        <p class="prix">5</p>
+                        <h4>Sauce Yakitori</h4><br>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+
+                    <div class="food-card">
+                        <img src="/Images/Projects/Kimiko_Market/Shop/sake.jpg" alt="Sake" class="img_produit">
+                        <p class="prix">35</p>
+                        <h4>Sake</h4><br>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+
+                    <div class="food-card">
+                        <img src="/Images/Projects/Kimiko_Market/Shop/nouilles.jpg" alt="Nouilles Epaisses"
+                            class="img_produit">
+                        <p class="prix">3,50</p>
+                        <h4>Nouilles Epaisses</h4><br>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+
+                    <div class="food-card">
+                        <img src="/Images/Projects/Kimiko_Market/Shop/algues_kombu_sechee.jpg"
+                            alt="Algues kombu séchées" class="img_produit">
+                        <p class="prix">4,50</p>
+                        <h4>Algues kombu séchées</h4><br>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+
+                    <div class="food-card">
+                        <img src="/Images/Projects/Kimiko_Market/Shop/vodka_de_riz.jpg" alt="Vodka de riz"
+                            class="img_produit">
+                        <p class="prix">40</p>
+                        <h4>Vodka de riz</h4><br>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+
+                    <div class="food-card">
+                        <img src="/Images/Projects/Kimiko_Market/Shop/miso_blanc.jpg" alt="Miso blanc"
+                            class="img_produit">
+                        <p class="prix">7,50</p>
+                        <h4>Miso blanc</h4><br>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <ul class="infos">
+            <li class="elem_infos">
+                Entreprise fictive
+                <b>Kimiko Market</b><br>
+                19 avenue du Maréchal Juin,<br>
+                90016 Belfort - France,<br>
+                Téléphone : +33 3 84 58 77 00<br>
+                <img src="/Images/Projects/Kimiko_Market/Kimiko_Market.svg" alt="Logo Kimiko Market">
+            </li>
+        </ul>
+    </footer>
+
+    <script src="/Misc/Projects/Kimiko_Market/Cart/index.js"></script>
+</body>
+
+</html>

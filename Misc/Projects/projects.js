@@ -1,0 +1,4 @@
+const projects = [
+    {id: "Kimiko_Market", name: "Kimiko Market", desc: "Deuxième projet de développement web en groupe, celui-ci consistait en la création d'un site de vente avec thème libre.<br>Avec mon groupe on s'est mis d'accord sur la vente de nourriture japonaise. Voici le résultat."},
+    {id: "Dassault_Systems", name: "Dassault Systèmes", desc: "C'est le premier projet de web que j'ai réalisé dans le cadre du cursus universitaire.<br>C'était un projet de groupe (environ six semaines) dont le but était de présenter une entreprise française.<br><b>NOTE : Je ne suis en aucun cas affilié à l'entreprise Dassasult Systèmes. Ce projet est uniquement à but éducatif, et non lucratif.</b>"},
+]

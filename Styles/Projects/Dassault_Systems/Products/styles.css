@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.first {
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images.yourstory.com/cs/2/220356402d6d11e9aa979329348d4c3e/3d-design-software-1677590763763.png?w=1152&fm=auto&ar=2:1&mode=crop&crop=faces);
+    background-size: 1578px 500px;
+
+}
+
+.first-text {
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2em;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Gabarito", sans-serif;
+}
+
+.content {
+    display: flex;
+    height: 400px;
+}
+
+.content img {
+    width: 50%;
+    background-color: #ccc;
+    padding: 0;
+}
+
+.content-text {
+    padding: 2em;
+    flex: 1;
+    background-color: #005386;
+    color: #f0f0f0;
+    width: 40%; 
+    text-align: justify;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.content-text h2 {
+    font-family: "Gabarito", sans-serif;
+}
+
+.content-text p {
+    font-family: "Open Sans", sans-serif;
+}
+
+.content:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.margin_page {
+    padding-top: 40px;
+    width: 100%;
+    border-top: 1px solid #242424;
+    border-bottom: 1px solid #242424;
+}
+
+@media (max-width: 799px) {
+    .first-text {
+        margin-top: 200px;
+    }
+    .first {
+        background-size: 660px 500px;
+    }
+}
+.content-text {
+    padding: 1em;
+    flex: 1;
+}
+.content:nth-child(even) {
+    flex-direction: row-reverse;
+}

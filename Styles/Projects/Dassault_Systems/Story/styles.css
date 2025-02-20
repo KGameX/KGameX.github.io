@@ -1,0 +1,73 @@
+h1, h2, h3 {
+    font-family: Gabarito, sans-serif;
+}
+body {
+    font-family: Open Sans, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.first {
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/Images/Projects/Dassault_Systems/Story/0_fond.jpg");
+    background-position: top -100px center;
+    background-size: cover;
+    border-bottom: 1px black solid;
+}
+.first-text {
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1em;
+}
+.content {
+    display: flex;
+    height: 500px;
+}
+.content img {
+    width: 50%;
+    background-color: #ccc;
+    padding: 0;
+    object-fit: cover;
+}
+.content-text {
+    width: 40%;
+    padding: 2em;
+    flex: 1;
+    background-color: #005386;
+    color: #f0f0f0;
+}
+.content-text p {
+    text-align: justify;
+}
+.content:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.margin_page {
+    padding-top: 40px;
+    width: 100%;
+    border-top: 1px solid #242424;
+    border-bottom: 1px solid #242424;
+}
+
+@media (max-width: 799px) {
+    .first-text {
+        margin-top: 200px;
+    }
+    .first {
+        background-size: 660px 500px;
+    }
+}
+.content-text {
+    padding: 1em;
+    flex: 1;
+}
+.content:nth-child(even) {
+    flex-direction: row-reverse;
+}

@@ -1,9 +1,14 @@
 .navbar {
-    background-color: #00115C;
+    background-color: #00115c;
+    transition: all 0.15s ease-in-out;
+}
+
+.navbar.static {
+    position: static;
 }
 
 header {
-    height: 30px;
+    height: 0;
 }
 
 #main {
@@ -11,7 +16,7 @@ header {
     margin: 0;
     display: flex;
     align-items: center;
-    height: 650px;
+    height: 660px;
     box-sizing: border-box;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -31,7 +36,7 @@ header {
     flex-direction: row;
 }
 
-.text-image:nth-child(odd) {
+.text-image:nth-of-type(odd) {
     flex-direction: row-reverse;
 }
 
@@ -60,6 +65,20 @@ header {
     background-image: url("/Images/KGameX_Beat_Saber.svg"), linear-gradient(135deg, #d91041, #b22ba8, #5475da);
     background-size: auto 450px, auto;
     background-position: bottom -5px center, center;
+    background-repeat: no-repeat;
+}
+
+#image-geometry-dash {
+    background-image: url("/Images/KGameX_Geometry_Dash.svg"), linear-gradient(135deg, #00ffff, #0000ff);
+    background-size: auto 450px, auto;
+    background-position: bottom -5px center, center;
+    background-repeat: no-repeat;
+}
+
+#image-projects {
+    background-image: url("/Images/KGameX_Projects.svg"), linear-gradient(135deg, #c7bb0e, #c43b3b, #b530b8);
+    background-size: auto 450px, auto;
+    background-position: bottom -25px center, center;
     background-repeat: no-repeat;
 }
 

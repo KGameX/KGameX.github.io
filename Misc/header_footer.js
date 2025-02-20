@@ -3,12 +3,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const footer = document.getElementById('footer');
 
     header.innerHTML = `
-        <div class="navbar">
+        <div class="navbar" id="navbar">
             <a href="/"><img src="/Images/KGameX.svg" id="logo"></a>
             <nav>
                 <ul>
                     <li><a href="/Algodoo">Algodoo</a></li>
                     <li><a href="#">Outils</a></li>
+                    <li><a href="/Projects">Projets</a></li>
                     <li><a href="#">Mini-Jeux</a></li>
                 </ul>
             </nav>

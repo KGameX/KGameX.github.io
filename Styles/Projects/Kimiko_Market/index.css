@@ -1,0 +1,121 @@
+h1 {
+    font-size: 50px;
+}
+
+.baniere{
+    height: 650px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex;
+    background-image: url(/Images/Projects/Kimiko_Market/Banner.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+
+
+.texte-baniere{
+    background-color: rgba(0, 0, 0, 0.678);
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.propos_list{
+    display: center;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding-bottom: 55px;
+}
+
+.propos_elem-list{
+    padding-top: 55px;
+    width: 100%;
+    font-weight: 400;
+    text-align: center;
+}
+
+.titre-elem{
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+    color: rgb(199, 1, 57);
+}
+
+.text-elem{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    text-justify: auto;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 40px;
+}
+
+.food-card{
+    padding: 20px;
+    border: solid 2px rgba(165, 0, 0, 0.555);
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.food-card img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+button{
+    padding: 7px;
+    font-weight: bold;
+    font-size: medium;
+    border: solid 1px black;
+    background-color: white;
+    transition: 0.25s;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px;
+}
+
+button:hover{
+    background-color: rgb(17, 17, 17);
+    color: white;
+    transition: 0.25s;
+}
+
+@media (min-width: 900px ) {
+    .text-elem{
+        width: 55%;
+        left: 22.5%;
+    }
+}
+
+@media (max-width: 899px ) {
+    .text-elem{
+        width: 90%;
+        left: 5%;
+    }
+
+    .baniere{
+        justify-content: center;
+    }
+
+    .texte-baniere{
+        padding: 30px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+}

@@ -7,44 +7,11 @@
     align-items: flex-end;
     justify-content: center;
     text-align: center;
-    height: 535px;
-    background-image: url(/Images/Algodoo/KGameX_Desktop.svg);
-    background-position: top -25px center;
+    height: 505px;
+    background-image: url(/Images/Projects/KGameX_Projects.svg);
+    background-position: top 15px center;
     background-repeat: no-repeat;
     background-size: auto 390px;
-}
-
-.grid {
-    margin: 10px 10px 0;
-    display: grid;
-    justify-content: center;
-    width: auto;
-    grid-template-columns: repeat(3, minmax(350px, 1fr));
-    gap: 10px;
-}
-
-.series, .games, .unmissables {
-    color: black;
-    height: 200px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: auto 200px;
-}
-
-.series {
-    background-image: url(/Images/Algodoo/Series.svg), linear-gradient(135deg, #40a18a, #56b00c, #c7bb0e);
-}
-
-.games {
-    background-image: url(/Images/Algodoo/Games.svg), linear-gradient(135deg, #c7bb0e, #c43b3b, #b530b8);
-}
-
-.unmissables {
-    background-image: url(/Images/Algodoo/Unmissables.svg), linear-gradient(135deg, #b530b8, #3c7dc7, #1c8a5f);
 }
 
 main {
@@ -52,7 +19,7 @@ main {
     padding: 0 10px;
 }
 
-.scene-grid {
+.project-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -60,8 +27,8 @@ main {
     gap: 10px;
 }
 
-.scene-card {
-    width: 220px;
+.project-card {
+    width: 530px;
     height: auto;
     text-align: center;
     background-color: white;
@@ -71,7 +38,7 @@ main {
     z-index: 10;
 }
 
-.scene-card img {
+.project-card img {
     width: 100%;
     height: auto;
     margin-bottom: -4px;
@@ -79,11 +46,11 @@ main {
     border-radius: 5px;
 }
 
-.scene-card:hover {
+.project-card:hover {
     transform: translateY(-5px);
 }
 
-.scene-details {
+.project-details {
     width: 80%;
     max-height: 80%;
     position: fixed;
@@ -98,14 +65,14 @@ main {
     overflow-y: auto;
 }
 
-.scene-details img {
+.project-details img {
     border-radius: 5px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.scene-details::-webkit-scrollbar-track {
+.project-details::-webkit-scrollbar-track {
     border-radius: 5px;
 }
 
@@ -129,8 +96,4 @@ main {
     visibility: hidden;
     opacity: 0;
     transform: translateY(-55%);
-}
-
-.algodoo:hover {
-    background-color: #e46c0a;
 }

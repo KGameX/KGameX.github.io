@@ -1,0 +1,107 @@
+main {
+    padding-bottom: 55px;
+}
+
+.baniere{
+    height: 400px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url(/Images/Projects/Kimiko_Market/About/Banner.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.texte-baniere{
+    background-color: rgba(0, 0, 0, 0.678);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.propos_list{
+    display: center;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.propos_elem-list{
+    padding-top: 55px;
+    width: 100%;
+    font-weight: 400;
+    text-align: center;
+}
+
+.titre-elem{
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+    color: rgb(197, 33, 33);
+}
+
+.text-elem{
+    position: relative;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: auto;
+}
+
+@media (min-width: 900px ) {
+    .text-elem{
+        width: 55%;
+        left: 22.5%;
+    }
+}
+
+@media (max-width: 899px ) {
+    .text-elem{
+        width: 90%;
+        left: 5%;
+    }
+}
+
+.nom_formulaire {
+    color: rgb(197, 33, 33)
+}
+
+input[type=text], textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #242424;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+}
+  
+input[type=envoi] {
+    background-color: rgb(197, 33, 33);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+}
+  
+input[type=envoi]:hover {
+    background-color: rgb(221, 53, 53);
+}
+  
+.formulaire {
+    box-sizing : border-box;
+    border-radius:5px;
+    box-shadow: 0 2px 4px rgb(42, 1, 1);
+    background-color: rgb(243, 243, 243);
+    padding:20px;
+    width: 100%;
+    max-width: 440px;
+    margin: auto;
+    margin-top: 55px;
+}
