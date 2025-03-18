@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <li><a href="https://facebook.com/KGameX.VK" target="_blank"><img src="/Images/Icons/Facebook.svg" height="30" id="icon"></a></li>
                 <li><a href="https://instagram.com/KGameX.VK" target="_blank"><img src="/Images/Icons/Instagram.svg" height="30" id="icon"></a></li>
                 <li><a href="https://x.com/KGameX_VK" target="_blank"><img src="/Images/Icons/X.svg" height="30" id="icon"></a></li>
-                <li><a href="https://discord.gg/FAcnXhZkBv" target="_blank"><img src="/Images/Icons/Discord.svg" height="30" id="icon"></a></li>
+                <li><a href="https://discordapp.com/users/878579349471760406" target="_blank"><img src="/Images/Icons/Discord.svg" height="30" id="icon"></a></li>
             </ul>
         </div>
     `;
