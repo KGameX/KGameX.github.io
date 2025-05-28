@@ -30,10 +30,42 @@ header {
     text-align: center;
 }
 
+.swiper {
+    margin: 10px 0;
+    padding: 0 10px;
+    background: none;
+    height: max-content;
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.swiper::-webkit-scrollbar {
+    display:none;
+}
+
+.swiper-card {
+    border-radius: 5px;
+    background: white;
+    width: 400px;
+    height: content;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.swiper-image {
+    border-radius: 5px;
+    width: 400px;
+    height: 450px;
+}
+
+.swiper-text {
+    padding-bottom: 10px;
+}
+
 .text-image {
     padding: 0;
     display: flex;
-    flex-direction: row;
 }
 
 .text-image:nth-of-type(odd) {
@@ -68,10 +100,17 @@ header {
     background-repeat: no-repeat;
 }
 
+#image-mario-kart {
+    background-image: url("/Images/KGameX_Mario_Kart.svg"), linear-gradient(135deg, #32ffb1, #296dff, #fa35fd);
+    background-size: auto 450px, auto;
+    background-position: bottom -5px right -20px, center;
+    background-repeat: no-repeat;
+}
+
 #image-geometry-dash {
     background-image: url("/Images/KGameX_Geometry_Dash.svg"), linear-gradient(135deg, #00ffff, #0000ff);
     background-size: auto 450px, auto;
-    background-position: bottom -5px center, center;
+    background-position: bottom -5px right -20px, center;
     background-repeat: no-repeat;
 }
 
@@ -90,8 +129,8 @@ header {
     background-color: #288ed2;
 }
 
-.roblox:hover {
-    background-color: #393b3d;
+.mario-kart:hover {
+    background-color: #7e0df0;
 }
 
 .youtube:hover {
