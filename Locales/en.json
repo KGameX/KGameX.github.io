@@ -4,6 +4,7 @@
     "navbar-mini-games": "Mini-Games",
 
     "span-look": "Look",
+    "coming-soon": "Coming soon",
 
     "root-subtitle": "I play games. Lots of games.",
     "root-swiper-card-projects": "Projects",
@@ -11,5 +12,15 @@
 
     "algodoo-title": "Where ideas take shape<br>on a 2D scene",
     "algodoo-subtitle": "Find my most popular scenes here. <a href=\"http://www.algodoo.com/algobox/profile.php?id=51929\" target=\"_blank\"><span class=\"algodoo\">Look at the profile</span></a>",
-    "coming-soon": "Coming soon"
+    "algodoo-span-series-title": "Series",
+    "algodoo-span-series-subtitle": "All series of scenes.",
+    "algodoo-span-games-title": "Games",
+    "algodoo-span-games-subtitle": "All interactive games.",
+    "algodoo-span-unmissables-title": "Unmissables",
+    "algodoo-span-unmissables-subtitle": "All scenes you must see !",
+
+    "projects-title": "All KGΛMΞX projects",
+    "projects-subtitle": "Code, web or other projects, everything is here !",
+    "projects-what-is-it": "What is it ?",
+    "projects-what-is-it-desc": "These are personal projects or those I retrieved as part of my university curriculum.<br>From Python to Java, including HTML, I learned many programming languages during my training.<br>All of this results in interesting and fun projects !"
 }
