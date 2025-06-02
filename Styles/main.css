@@ -190,6 +190,7 @@ footer a:hover {
 }
 
 footer div {
+    height: 30px;
     display: flex;
     align-items: center;
 }
@@ -204,4 +205,63 @@ footer ul li {
     list-style-type: none;
     margin: 0;
     padding-right: 10px;
+}
+
+footer select,
+::picker(select) {
+    appearance: base-select;
+    border: none;
+}
+
+footer select {
+    background-color: #f2f2f2;
+    color: #333333;
+    width: 150px;
+    font-size: 20px;
+    height: 30px;
+    border: none;
+    padding: 0 12.5px;
+    border-radius: 15px;
+    align-items: center;
+    transition: background 0.3s ease-in-out;
+}
+
+footer select:open {
+    color: #333333;
+    border-radius: 0 0 15px 15px;
+}
+
+footer select::picker-icon {
+    color: #333333;
+    transition: 0.3s rotate;
+    rotate: 180deg;
+}
+
+footer select:open::picker-icon {
+    rotate: 0deg;
+}
+
+footer select option {
+    background-color: #f2f2f2;
+    color: #333333;
+    font-size: 20px;
+    padding: 5px 12.5px;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s ease-in-out;
+}
+
+footer select option::checkmark {
+    order: 1;
+    margin-left: auto;
+}
+
+footer select option:first-of-type {
+    border-radius: 15px 15px 0 0;
+}
+
+footer select:hover,
+footer select option:hover,
+footer select option:focus {
+    background: #d9d9d9;
 }
