@@ -121,34 +121,34 @@ header {
     background-repeat: no-repeat;
 }
 
-.algodoo:hover {
+.button.algodoo:hover {
     background-color: #e46c0a;
 }
 
-.beat-saber:hover {
+.button.beat-saber:hover {
     background-color: #288ed2;
 }
 
-.mario-kart:hover {
+.button.mario-kart:hover {
     background-color: #7e0df0;
 }
 
-.youtube:hover {
+.button.youtube:hover {
     background-color: #ff002f;
 }
 
-.facebook:hover {
+.button.facebook:hover {
     background-color: #4267b2;
 }
 
-.instagram:hover {
+.button.instagram:hover {
     background-color: #ff007f;
 }
 
-.twitter:hover {
+.button.twitter:hover {
     background-color: black;
 }
 
-.discord:hover {
+.button.discord:hover {
     background-color: #5865f2;
 }

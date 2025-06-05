@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KGΛMΞX</title>
+    <link rel="icon" type="image/ico" href="/Images/KGameX.svg">
+    <link rel="stylesheet" href="/Styles/main.css">
+    <link rel="stylesheet" href="/Styles/Tools/Texts/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/Misc/Tools/Texts/index.js"></script>
+    <script src="/Misc/header_footer.js"></script>
+    <script src="/Misc/locales.js"></script>
+</head>
+
+<body>
+    <header id="header"></header>
+
+    <section class="fileprops no-background">
+        <input class="filename" type="text" id="filename" name="filename">
+        <div class="fileprops-buttons">
+            <button id="button-save" class="fileprops-button" data-i18n="tools-button-save"></button>
+    </section>
+    
+    <section class="text-editor">
+        <div id="line-number" class="line-number">
+            1
+        </div>
+        <div class="container">
+            <div id="textarea" class="textarea" contenteditable="true"></div>
+            <div id="text" class="text"></div>
+        </div>
+    </section>
+    
+    <footer id="footer"></footer>
+</body>
+</html>

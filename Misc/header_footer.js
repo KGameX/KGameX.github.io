@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <nav>
                 <ul>
                     <li><a href="/Algodoo">Algodoo</a></li>
-                    <li><a href="#" data-i18n="navbar-tools"></a></li>
+                    <li><a href="/Tools" data-i18n="navbar-tools"></a></li>
                     <li><a href="/Projects" data-i18n="navbar-projects"></a></li>
                     <li><a href="#" data-i18n="navbar-mini-games"></a></li>
                 </ul>

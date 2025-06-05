@@ -1,0 +1,74 @@
+.navbar {
+    background-color: #00115c;
+}
+
+.grid {
+    margin: 10px 10px 0;
+    display: grid;
+    justify-content: center;
+    width: auto;
+    grid-template-columns: repeat(3, minmax(350px, 1fr));
+    gap: 10px;
+}
+
+.series, .games, .unmissables {
+    color: black;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: auto 200px;
+}
+
+.series {
+    background-image: url(/Images/Algodoo/Series.svg), linear-gradient(135deg, #40a18a, #56b00c, #c7bb0e);
+}
+
+.games {
+    background-image: url(/Images/Algodoo/Games.svg), linear-gradient(135deg, #c7bb0e, #c43b3b, #b530b8);
+}
+
+.unmissables {
+    background-image: url(/Images/Algodoo/Unmissables.svg), linear-gradient(135deg, #b530b8, #3c7dc7, #1c8a5f);
+}
+
+main {
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.tool-grid {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: calc(100vh - 238px);
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 10px;
+}
+
+.tool-card {
+    width: 150px;
+    height: fit-content;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    text-wrap: wrap;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+}
+
+.tool-card img {
+    width: 80%;
+    height: auto;
+    margin-top: 12px;
+    margin-bottom: -4px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.tool-card:hover {
+    transform: translateY(-5px);
+}

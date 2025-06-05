@@ -11,7 +11,7 @@
     "root-section-socials": "My socials :",
 
     "algodoo-title": "Where ideas take shape<br>on a 2D scene",
-    "algodoo-subtitle": "Find my most popular scenes here. <a href=\"http://www.algodoo.com/algobox/profile.php?id=51929\" target=\"_blank\"><span class=\"algodoo\">Look at the profile</span></a>",
+    "algodoo-subtitle": "Find my most popular scenes here. <a href=\"http://www.algodoo.com/algobox/profile.php?id=51929\" target=\"_blank\"><span class=\"button algodoo\">Look at the profile</span></a>",
     "algodoo-span-series-title": "Series",
     "algodoo-span-series-subtitle": "All series of scenes.",
     "algodoo-span-games-title": "Games",
@@ -22,5 +22,8 @@
     "projects-title": "All KGΛMΞX projects",
     "projects-subtitle": "Code, web or other projects, everything is here !",
     "projects-what-is-it": "What is it ?",
-    "projects-what-is-it-desc": "These are personal projects or those I retrieved as part of my university curriculum.<br>From Python to Java, including HTML, I learned many programming languages during my training.<br>All of this results in interesting and fun projects !"
+    "projects-what-is-it-desc": "These are personal projects or those I retrieved as part of my university curriculum.<br>From Python to Java, including HTML, I learned many programming languages during my training.<br>All of this results in interesting and fun projects !",
+
+    "tools-title": "The Tools",
+    "tools-button-save": "Save"
 }
