@@ -1,0 +1,63 @@
+.navbar {
+    background-color: #00115c;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: fit-content;    
+}
+
+.swiper {
+    margin: 10px;
+    padding: 0;
+    background: none;
+    height: max-content;
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.swiper::-webkit-scrollbar {
+    display:none;
+}
+
+.swiper-card {
+    border-radius: 5px;
+    background: white;
+    width: 750px;
+    height: content;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.swiper-image {
+    border-radius: 5px;
+    width: 750px;
+    height: 500px;
+    background-size: auto 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#swiper-image-1 {
+    background-image: url("/Images/Portfolio/Swiper_Image_1.png");
+}
+
+#swiper-image-2 {
+    background-image: url("/Images/Portfolio/Swiper_Image_2.png");
+}
+
+#swiper-image-3 {
+    background-image: url("/Images/Portfolio/Swiper_Image_3.png");
+}
+
+#swiper-image-4 {
+    background-image: url("/Images/Portfolio/Swiper_Image_4.png");
+}
+
+#swiper-image-5 {
+    background-image: url("/Images/Portfolio/Swiper_Image_5.png");
+}

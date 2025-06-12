@@ -63,29 +63,6 @@ header {
     padding-bottom: 10px;
 }
 
-.text-image {
-    padding: 0;
-    display: flex;
-}
-
-.text-image:nth-of-type(odd) {
-    flex-direction: row-reverse;
-}
-
-.text-image-text {
-    padding: 10px;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.text-image-image {
-    border-radius: 5px;
-    width: 60%;
-    height: 450px
-}
-
 #image-algodoo {
     background-image: url("/Images/KGameX_Desktop.svg"), linear-gradient(135deg, #40a18a, #56b00c, #c7bb0e);
     background-size: auto 450px, auto;

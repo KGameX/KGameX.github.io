@@ -19,8 +19,14 @@
     "algodoo-span-unmissables-title": "Unmissables",
     "algodoo-span-unmissables-subtitle": "All scenes you must see !",
 
+    "navbar-portfolio-personal-projects": "Personal projects",
+    "navbar-portfolio-university-projects": "University projects",
+
+    "portfolio-title": "My Portfolio",
+    "portfolio-subtitle": "Welcome to my portfolio !<br>You will find here my personal and university projects that I made during my training.<br><br>If you want to find or download the finished projects, you can find them in <a href=\"/Projects\"><span class=\"button\">Projects</span></a>.",
+
     "projects-title": "All KGΛMΞX projects",
-    "projects-subtitle": "Code, web or other projects, everything is here !",
+    "projects-subtitle": "Code, web or other projects, everything is here ! <a href=\"/Portfolio\"><span class=\"button\">Open the portfolio</span></a>",
     "projects-what-is-it": "What is it ?",
     "projects-what-is-it-desc": "These are personal projects or those I retrieved as part of my university curriculum.<br>From Python to Java, including HTML, I learned many programming languages during my training.<br>All of this results in interesting and fun projects !",
 

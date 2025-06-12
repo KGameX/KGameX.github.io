@@ -19,8 +19,25 @@
     "algodoo-span-unmissables-title": "Les immanquables",
     "algodoo-span-unmissables-subtitle": "Toutes les scènes à voir absolument !",
 
+    "navbar-portfolio-personal-projects": "Projets personnels",
+    "navbar-portfolio-university-projects": "Projets universitaires",
+
+    "portfolio-title": "Mon Portfolio",
+    "portfolio-subtitle": "Bienvenue sur mon portfolio !<br>Vous trouverez ici mes projets personnels et universitaires que j'ai réalisés durant ma formation.<br><br>Si vous souhaitez retrouver ou télécharger les projets terminés, vous pouvez les retrouver dans <a href=\"/Projects\"><span class=\"button\">Projets</span></a>.",
+    "portfolio-my-formation": "Ma formation ?",
+    "portfolio-my-formation-desc": "Je suis en première année de BUT Informatique à l'IUT de Belfort.<br>J'ai commencé ma formation en septembre 2024 et j'y apprends de nombreux langages de programmation ainsi que des outils de développement.",
+    "portfolio-which-languages": "Quels langages ?",
+    "portfolio-which-languages-desc": "Principalement du Java et du Python, mais aussi du SQL, de l'HTML et du CSS.<br>Dans un but personnel, j'ai aussi appris le JavaScript.<br>J'ai également appris à utiliser des outils comme Git, Visual Studio Code et IntelliJ IDEA.",
+    "portfolio-whats-next": "Et ensuite ?",
+    "portfolio-whats-next-desc": "Le but final serait de devenir développeur dans le jeu vidéo.<br>La route est encore longue, mais je suis motivé et prêt à relever les défis !",
+
+    "portfolio-university-projects-orbito-title": "Projet 1 : Création d'un jeu de plateau",
+    "portfolio-university-projects-orbito-desc": "Ce projet a été créé dans le cadre de la SAÉ S2.01-02-06 : <br><ul><li>UE 1 : Réaliser un développement d'application</li><li>UE 2 : Optimiser des applications</li><li>UE 6 : Collaborer au sein d'une équipe informatique</li></ul>Inspiré du jeu Orbito, les joueurs doivent placer des billes sur le plateau dans le but de les aligner pour gagner.",
+    "portfolio-university-projects-techmobile-title": "Projet 2 : Développement d'un site de e-commerce",
+    "portfolio-university-projects-techmobile-desc": "Ce projet a été créé dans le cadre de la SAÉ S2.03-04-05 : <br><ul><li>UE 3 : Administrer des systèmes informatiques communiquants complexes</li><li>UE 4 : Gérer des données de l'information</li><li>UE 5 : Conduire un projet</li></ul>Le but de ce projet était de créer un site de e-commerce pour une entreprise fictive, TechMobile, spécialisée dans la vente de téléphones mobiles.",
+
     "projects-title": "Tous les projets de KGΛMΞX",
-    "projects-subtitle": "Projets de code, de web ou d'autres, tout est présent ici !",
+    "projects-subtitle": "Projets de code, de web ou d'autres, tout est présent ici ! <a href=\"/Portfolio\"><span class=\"button\">Ouvrir le portfolio</span></a>",
     "projects-what-is-it": "Qu'est-ce que c'est ?",
     "projects-what-is-it-desc": "Ce sont des projects personnels ou que j'ai récupéré dans le cadre de mon cursus universitaire.<br>Du Python au Java, en passant par HTML, j'ai appris de nombreux langages de programmation durant ma formation.<br>Tout cela donne à la fin des projets intéressants et amusants !",
 
