@@ -24,6 +24,17 @@
 
     "portfolio-title": "My Portfolio",
     "portfolio-subtitle": "Welcome to my portfolio !<br>You will find here my personal and university projects that I made during my training.<br><br>If you want to find or download the finished projects, you can find them in <a href=\"/Projects\"><span class=\"button\">Projects</span></a>.",
+    "portfolio-my-formation": "My training ?",
+    "portfolio-my-formation-desc": "I am in the first year of a BUT in Computer Science at the IUT of Belfort.<br>I started my training in September 2024 and I learn many programming languages as well as development tools.",
+    "portfolio-which-languages": "Which languages ?",
+    "portfolio-which-languages-desc": "Mainly Java and Python, but also SQL, HTML and CSS.<br>For personal purposes, I also learned JavaScript.<br>I also learned to use tools like Git, Visual Studio Code and IntelliJ IDEA.",
+    "portfolio-whats-next": "And next ?",
+    "portfolio-whats-next-desc": "The final goal would be to become a developer in the video game industry.<br>The road is still long, but I am motivated and ready to take on the challenges !",
+
+    "portfolio-university-projects-orbito-title": "Project 1: Creation of a board game",
+    "portfolio-university-projects-orbito-desc": "This project was created as part of the SAÉ S2.01-02-06: <br><ul><li>UE 1: Realize an application development</li><li>UE 2: Optimize applications</li><li>UE 6: Collaborate within a computer team</li></ul>Inspired by the game Orbito, players must place marbles on the board in order to align them to win.",
+    "portfolio-university-projects-techmobile-title": "Project 2: Development of an e-commerce site",
+    "portfolio-university-projects-techmobile-desc": "This project was created as part of the SAÉ S2.03-04-05: <br><ul><li>UE 3: Administer complex communicating computer systems</li><li>UE 4: Manage information data</li><li>UE 5: Conduct a project</li></ul>The goal of this project was to create an e-commerce site for a fictitious company, TechMobile, specialized in selling mobile phones.",
 
     "projects-title": "All KGΛMΞX projects",
     "projects-subtitle": "Code, web or other projects, everything is here ! <a href=\"/Portfolio\"><span class=\"button\">Open the portfolio</span></a>",
