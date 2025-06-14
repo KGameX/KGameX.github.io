@@ -36,6 +36,12 @@
     "portfolio-university-projects-techmobile-title": "Project 2 : Development of an e-commerce site",
     "portfolio-university-projects-techmobile-desc": "This project was created as part of the SAÉ S2.03-04-05 : <br><ul><li>UE 3: Administer complex communicating computer systems</li><li>UE 4: Manage information data</li><li>UE 5: Conduct a project</li></ul>The goal of this project was to create an e-commerce site for a fictitious company, TechMobile, specialized in selling mobile phones.",
 
+    "orbito-figcaption": "Figure 1 : Using the IntelliJ IDEA editor to create a board game",
+    "orbito-desc-1": "Figure 1 is a screenshot of the IntelliJ IDEA development environment, used here to program an application in Java. This application, named Orbito++, was developed as part of a group project, with the goal of designing a board game using the Java Boardifier library, specialized in creating 2D games.",
+    "orbito-desc-2": "On the left column, we can see the project structure. This structure follows the MVC paradigm, divided into three packages (in red, the Controller part, in green, the Model part and in blue, the View part).",
+    "orbito-desc-3": "The OrbitoStageModel class, opened in the editor, illustrates several skills. We recognize the use of the Java language, with concepts such as class inheritance (extends GameStageModel, highlighted in magenta) and the manipulation of public and private objects. The code also shows the ability to define access and recording methods (getters/setters), to instantiate objects, and to organize the class around its attributes.",
+    "orbito-desc-4": "This figure demonstrates the ability to properly structure a Java application, using structured and named folders, allowing for easier code maintenance. It also illustrates the implementation of a model class, essential for managing data and business logic in an MVC application.",
+
     "projects-title": "All KGΛMΞX projects",
     "projects-subtitle": "Code, web or other projects, everything is here ! <a href=\"/Portfolio\"><span class=\"button\">Open the portfolio</span></a>",
     "projects-what-is-it": "What is it ?",
