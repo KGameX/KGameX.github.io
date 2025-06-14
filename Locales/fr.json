@@ -36,6 +36,12 @@
     "portfolio-university-projects-techmobile-title": "Projet 2 : Développement d'un site de e-commerce",
     "portfolio-university-projects-techmobile-desc": "Ce projet a été créé dans le cadre de la SAÉ S2.03-04-05 : <br><ul><li>UE 3 : Administrer des systèmes informatiques communiquants complexes</li><li>UE 4 : Gérer des données de l'information</li><li>UE 5 : Conduire un projet</li></ul>Le but de ce projet était de créer un site de e-commerce pour une entreprise fictive, TechMobile, spécialisée dans la vente de téléphones mobiles.",
 
+    "orbito-figcaption": "Figure 1 : Utilisation de l'éditeur IntelliJ IDEA pour créer un jeu de plateau",
+    "orbito-desc-1": "La Figure 1 est une capture d’écran de l’environnement de développement IntelliJ IDEA, utilisé ici pour programmer une application en Java. Cette application, nommée Orbito++, a été développée dans le cadre d’un projet de groupe, avec pour objectif de concevoir un jeu de plateau à partir de la bibliothèque Java Boardifier, spécialisée dans la création de jeux en 2D.",
+    "orbito-desc-2": "Sur la colonne à gauche, on peut voir la structure du projet. Cette structure suit le paradigme MVC, répartie en trois paquets (en rouge, la partie Contrôleur, en vert, la partie Modèle et en bleu, la partie Vue).",
+    "orbito-desc-3": "La classe OrbitoStageModel, ouverte dans l'éditeur, illustre plusieurs savoirs. On y reconnaît l’usage du langage Java, avec des concepts comme l’héritage de classes (extends GameStageModel, entouré en magenta) et la manipulation d'objets publics et privés. Le code montre aussi la capacité à définir des méthodes d’accès et d'enregistrement (getters/setters), à instancier des objets, et à organiser la classe autour de ses attributs.",
+    "orbito-desc-4": "Cette figure témoigne de la capacité à structurer proprement une application Java, en utilisant des dossiers structurés et nommés, permettant une mainenance plus facile du code. Elle illustre également la mise en œuvre d'une classe de modèle, essentielle pour la gestion des données et la logique métier dans une application MVC.",
+
     "projects-title": "Tous les projets de KGΛMΞX",
     "projects-subtitle": "Projets de code, de web ou d'autres, tout est présent ici ! <a href=\"/Portfolio\"><span class=\"button\">Ouvrir le portfolio</span></a>",
     "projects-what-is-it": "Qu'est-ce que c'est ?",
